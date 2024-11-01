@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.div-boxMain{
+
+
+}
+
+.div-weatherBox{
+    width: 410px;
+    height: 500px;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: rgba(18, 19, 22, 0.884);
+}
+
+.div-weatherBoxMainInfos{
+    height: 180px;
+    margin-bottom: 50px;
+    /* background-color: rgba(67, 83, 72, 0.884); */
+
+}
+
+.div-weatherBoxExtraInfos{
+    height: 120px;
+    margin-bottom: 70px;
+    background-color: rgba(47, 52, 61, 0.329);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.div-weatherSearchButton{
+    /* background-color: rgba(13, 143, 136, 0.884); */
+    display: flex;
+    justify-content: left;
+
+}
+
+.control-weatherSearchButton{
+
+}
+
+
+p {
+    color: aliceblue;
+    font-weight: 500;
+    
+}
+
+spam {
+    color: aliceblue;
+}
+.data_city_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.data_country{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.data_temperature{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.fa-solid {
+    color: rgb(220, 236, 236);
+}
+
+.data_text_description{
+    font-size: large;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.data_weather_logo{
+    size:2px;
+}
+
+.div_weather_logo{
+    height: 67px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+#magnifying-glass{
+color: rgb(99, 96, 96);
+background: none;
+display: flex;
+margin-left: 30px;
+}
+
+button{
+
+    background-color: rgba(18, 19, 22, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+ width: 200px;
+ height: 50px;
+ color: rgb(255, 255, 255);
+ font-size: large;
+ font-weight: 500;
+ background-color: rgba(39, 43, 43, 0.596);
+ border: none;
+ outline: none;
+ border-radius: 20px;
+ padding: 10px;
+ font-size: 10px;
+ 
+}
+
+table {
+
+text-align: center;
+}
+
+td {
+    align-items: center;
+    /* background-color: aqua; */
+    height: 40px;
+} */
+
+tr{
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+}

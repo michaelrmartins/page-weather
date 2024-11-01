@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="src/js/script.js"></script>
+    <title>Weather</title>
+</head>
+<body onload="getApiData('Campos dos Goytacazes')">
+
+
+<div class="div-boxMain">
+
+    <div class="div-weatherBox">
+
+        <div class="div-weatherBoxMainInfos">
+            <spam class="data_city_name">loading...</spam><spam>,</spam>
+            <spam class="data_country">loading...</spam>
+            <p class="data_temperature">loading...</p>
+            <p class="data_text_description">loading...</p>
+            <div class="div_weather_logo">
+                <img class="data_weather_logo" src="">
+            </div>
+        </div>
+        <div class="div-weatherBoxExtraInfos">
+            <table style="width: 100%;">
+                <tr>
+                    <td><i class="fa-solid fa-wind" title="Velocidade do Vento"></td>
+                    <td><i class="fa-solid fa-location-arrow" title="Direção do Vento em Graus" ></i></td>
+                    <td><i class="fa-solid fa-gauge-high" title="Pressão atmosférica em hectopascal"></i></td>
+                </tr>
+                <tr>
+                    <td><p class="data_wind_speed" title="Velocidade do Vento">...</p></td>
+                    <td><p class="data_wind_direction" title="Direção do Vento em Graus">...</p></td>
+                    <td><p class="data_pressure" title="Pressão atmosférica em hectopascal">...</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="div-weatherSearchButton">
+            <input class="control-weatherSearchButton" placeholder="Cidade">
+            <button>
+                <i class="fa-solid fa-magnifying-glass fa-2x" id="magnifying-glass" onclick="getUserInput()"></i>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<!--Background Video-->
+<video autoplay muted loop class="bg-video">
+    <source src="src/media/movie-bg.mp4" type="video/mp4">
+</video>
+</body>
+</html>
